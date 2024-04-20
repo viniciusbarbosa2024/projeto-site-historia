@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+:root {
+    --color01:#fd1c1c;
+    --color02:#e20303;
+    --color03:#af0404;
+    --color04:#7c0303;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    height: 150px;
+    background-image: linear-gradient(to bottom,var(--color02),var(--color03),var(--color04));
+}
