@@ -18,14 +18,24 @@ header {
     background-image: linear-gradient(to bottom,var(--color02),var(--color03));
 }
 
+header img {
+    display: block;
+    margin: auto;
+}
+
 nav {
     background-color: #7c0303;
     padding: 10px;
 }
 
 nav > a {
+    font-weight: bold;
     color: white;
     text-decoration: none;
-    padding: 0px 20px;
+    padding: 10px 20px;
 }
 
+nav > a:hover {
+    background-color: #fd1c1c;
+    transition-duration: 0.5s;
+}
