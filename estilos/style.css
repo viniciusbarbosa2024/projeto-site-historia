@@ -1,6 +1,7 @@
 @charset "UTF-8";
 
 :root {
+    --color00:#ff9e9e;
     --color01:#fd1c1c;
     --color02:#e20303;
     --color03:#af0404;
@@ -11,6 +12,10 @@
     margin: 0px;
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: var(--color00);
 }
 
 header {
@@ -38,4 +43,16 @@ nav > a {
 nav > a:hover {
     background-color: #fd1c1c;
     transition-duration: 0.5s;
+}
+
+main {
+    max-width: 700px;
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+main > img {
+    width: 60%;
 }
