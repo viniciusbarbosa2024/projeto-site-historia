@@ -23,14 +23,16 @@ header {
     background-image: linear-gradient(to bottom,var(--color02),var(--color03));
 }
 
-header img {
+header > a {
     display: block;
+    width: 220px;
     margin: auto;
 }
 
 nav {
     background-color: #7c0303;
     padding: 10px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.349);
 }
 
 nav > a {
@@ -51,12 +53,41 @@ main {
     padding: 20px;
     background-color: white;
     border-radius: 10px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.342);
+}
+
+main h1 {
+    color: var(--color04);
 }
 
 main > img {
     width: 60%;
+    margin-top: 20px;
 }
 
 main p.descricaoimg {
     color: darkgray;
+    margin-bottom: 10px;
+    text-indent: 0px;
+}
+
+main h2 {
+    color: var(--color02);
+    padding: 10px 2px;
+    margin-bottom: 10px;
+}
+
+main p {
+    text-indent: 20px;
+    line-height: 1.7em;
+}
+
+main a.destaque {
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--color04);
+}
+
+main a.destaque:hover {
+    text-decoration: underline;
 }
