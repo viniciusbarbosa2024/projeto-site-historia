@@ -91,3 +91,18 @@ main a.destaque {
 main a.destaque:hover {
     text-decoration: underline;
 }
+
+footer {
+    height: 100px;
+    margin-top: 40px;
+    background-image: linear-gradient(to bottom,var(--color02),var(--color03));
+}
+
+footer > img#logo {
+    height: 60px;
+    margin-top: 22px;
+}
+
+footer > img {
+    height: 40px;
+}
