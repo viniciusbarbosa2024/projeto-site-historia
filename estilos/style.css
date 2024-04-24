@@ -105,26 +105,28 @@ footer > img#logo {
 }
 
 
-footer  img {
+footer  img.icon {
     height: 30px;
     margin-left: 20px;
 }
 
-footer img:hover {
+footer img.icon:hover {
     height:35px;
+    margin-left: 15px;
 }
 
 footer > p {
     position: absolute;
     top:80%;
-    left: 90%;
+    left: 50%;
+    font-size: 12px;
     text-align: right;
-    color: rgba(255, 255, 255, 0.445);
+    color: rgba(0, 0, 0, 0.400);
 }
 
 footer > p > a {
     text-decoration: none;
-    color: rgba(255, 255, 255, 0.445);
+    color: rgba(0, 0, 0, 0.400);
 }
 
 footer > p > a:hover {
