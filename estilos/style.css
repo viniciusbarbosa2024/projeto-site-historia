@@ -96,6 +96,7 @@ footer {
     height: 100px;
     margin-top: 40px;
     background-image: linear-gradient(to bottom,var(--color02),var(--color03));
+    position: relative;
 }
 
 footer > img#logo {
@@ -103,6 +104,29 @@ footer > img#logo {
     margin-top: 22px;
 }
 
-footer > img {
-    height: 40px;
+
+footer  img {
+    height: 30px;
+    margin-left: 20px;
+}
+
+footer img:hover {
+    height:35px;
+}
+
+footer > p {
+    position: absolute;
+    top:80%;
+    left: 90%;
+    text-align: right;
+    color: rgba(255, 255, 255, 0.445);
+}
+
+footer > p > a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.445);
+}
+
+footer > p > a:hover {
+    text-decoration: underline;
 }
