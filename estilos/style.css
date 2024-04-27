@@ -54,57 +54,84 @@ main {
     background-color: white;
     border-radius: 10px;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.342);
+    text-align: justify;
 }
 
-main h1 {
+main > article h1 {
     color: var(--color04);
 }
 
-main > img {
+main > article img {
     width: 60%;
     margin-top: 20px;
 }
 
-main p.descricaoimg {
+main > article p.descricaoimg {
     color: darkgray;
     margin-bottom: 10px;
     text-indent: 0px;
 }
 
-main h2 {
+main > article h2 {
     color: var(--color02);
     padding: 10px 2px;
     margin-bottom: 10px;
 }
 
-main p {
+main > article p {
     text-indent: 20px;
     line-height: 1.7em;
 }
 
-main a.destaque {
+main > article a.destaque {
     text-decoration: none;
     font-weight: bold;
     color: var(--color04);
 }
 
-main a.destaque:hover {
+main > article a.destaque:hover {
     text-decoration: underline;
 }
 
-main div#conteiner {
+main > article div#conteiner {
     position: relative;
     height: 400px;
     background-color: var(--color04);
     margin: 0px -20px;
 }
 
-main iframe {
+main > article iframe {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
     width: 80%;
+}
+
+main > aside {
+    background-color: var(--color00);
+    margin-top: 30px;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.425);
+}
+
+main > aside h3 {
+    background-color: var(--color04);
+    color: white;
+    margin: -10px -10px 0px -10px;
+    border-radius: 10px 10px 0px 0px;
+    padding: 10px;
+}
+
+main > aside h4 {
+    padding: 15px 0px;    
+}
+
+main > aside ul {
+    margin-top: 15px;
+    list-style-position: inside;
+    list-style-type: "\2756\00A0\00A0";
 }
 
 footer {
