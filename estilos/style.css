@@ -147,30 +147,34 @@ footer > img#logo {
 }
 
 
+div#redes-sociais {
+    position: absolute;
+    top: 30px;
+    left: 105px;
+    width: 170px;
+}
+
+footer  p {
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.400);
+    text-align: center;
+    padding: 5px;
+}
+
+footer  p > a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.400);
+}
+
+footer  p > a:hover {
+    text-decoration: underline;
+}
+
 footer  img.icon {
     height: 30px;
     margin-left: 20px;
 }
 
 footer img.icon:hover {
-    height:35px;
-    margin-left: 15px;
-}
-
-footer > p {
-    position: absolute;
-    top:80%;
-    left: 50%;
-    font-size: 12px;
-    text-align: right;
-    color: rgba(0, 0, 0, 0.400);
-}
-
-footer > p > a {
-    text-decoration: none;
-    color: rgba(0, 0, 0, 0.400);
-}
-
-footer > p > a:hover {
-    text-decoration: underline;
+    transform: translate(2px,-2px);
 }
