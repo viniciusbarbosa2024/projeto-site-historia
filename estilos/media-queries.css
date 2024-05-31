@@ -3,7 +3,37 @@
 @media screen and (max-width:768px) {
     
     nav {
-        /*Só vou conseguir resolver quando eu aprender um pouco de javascript*/
+        display: none;
+    }
+
+    menu {
+        display: block;
+        text-align: center;
+    }
+
+    menu > span {
+        width: 100%;
+        background-color: var(--color04);
+        padding: 5px;
+        border-bottom: 1px solid black;
+        color: white;
+        cursor: pointer;
+    }
+
+    menu > ul  li{
+        padding: 10px;
+        background-color: var(--color04); 
+        border-bottom: 1px solid black;   
+        
+    }
+
+    menu > ul  li:hover {
+        background-color: var(--color01);
+    }
+
+    menu > ul > a {
+        text-decoration: none;
+        color: white;
     }
     
     main > article img {
