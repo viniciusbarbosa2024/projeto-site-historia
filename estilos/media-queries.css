@@ -20,6 +20,14 @@
         cursor: pointer;
     }
 
+    menu ul.oculto {
+        display: none;
+    }
+
+    menu ul.visivel {
+        display: block;
+    }
+
     menu > ul  li{
         padding: 10px;
         background-color: var(--color04); 
@@ -34,6 +42,10 @@
     menu > ul > a {
         text-decoration: none;
         color: white;
+    }
+
+    main {
+        border-radius: 0px;
     }
     
     main > article img {
